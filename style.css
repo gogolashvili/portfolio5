@@ -1,0 +1,123 @@
+.maincont {
+  background-color: #151515;
+  max-width: 1440px;
+  width: 100%;
+  height: 1830px;
+}
+.insidecont {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(47, 51, 53);
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.divhead {
+  display: flex;
+  gap: 10px;
+  height: 25px;
+}
+h1 {
+  color: White;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.444444px;
+}
+.face {
+  width: 23px;
+  height: 24px;
+}
+.inst {
+  width: 24px;
+  height: 24px;
+}
+.github {
+  width: 24px;
+  height: 24px;
+}
+.linkdin {
+  width: 24px;
+  height: 24px;
+}
+
+h2 {
+  width: 80%;
+  height: 88px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+h3 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+h4 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  color: #d9d9d9;
+  width: 60%;
+  height: 85px;
+  margin-top: 10px;
+}
+h5 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 70px;
+  letter-spacing: 2.28571px;
+  color: #ffffff;
+}
+.divsect1 {
+  width: 60%;
+  margin-top: 50px;
+}
+.line1 {
+  width: 120px;
+  height: 2px;
+  background-color: #4ee1a0;
+}
+.myfoto {
+  width: 445px;
+  height: 500px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.sect1 {
+  display: flex;
+}
+.line2 {
+  width: 350px;
+  height: 6px;
+  background-color: #4ee1a0;
+  margin-top: 5px;
+}
+.line3 {
+  width: 450px;
+  height: 6px;
+  background-color: #4ee1a0;
+  margin-top: 5px;
+}
+hr {
+  margin-top: 50px;
+}
