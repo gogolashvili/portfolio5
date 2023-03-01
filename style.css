@@ -35,17 +35,30 @@ h1 {
   width: 23px;
   height: 24px;
 }
+.face:hover {
+  cursor: pointer;
+}
+
 .inst {
   width: 24px;
   height: 24px;
+}
+.inst:hover {
+  cursor: pointer;
 }
 .github {
   width: 24px;
   height: 24px;
 }
+.github:hover {
+  cursor: pointer;
+}
 .linkdin {
   width: 24px;
   height: 24px;
+}
+.linkdin:hover {
+  cursor: pointer;
 }
 
 h2 {
@@ -88,6 +101,9 @@ h5 {
   margin-top: 70px;
   letter-spacing: 2.28571px;
   color: #ffffff;
+}
+h5:hover {
+  cursor: pointer;
 }
 .divsect1 {
   width: 60%;
