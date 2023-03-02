@@ -8,7 +8,7 @@
 .insidecont {
   width: 80%;
   margin: 0 auto;
-  /* background-color: rgb(47, 51, 53); */
+  background-color: rgb(47, 51, 53);
 }
 header {
   height: 100px;
@@ -106,7 +106,7 @@ h5:hover {
   cursor: pointer;
 }
 .divsect1 {
-  width: 60%;
+  width: 65%;
   margin-top: 50px;
 }
 .line1 {
@@ -136,5 +136,32 @@ h5:hover {
   margin-top: 5px;
 }
 hr {
-  margin-top: 50px;
+  margin-top: 80px;
+}
+.divsect2up {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+h6 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+}
+p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d9d9d9;
+}
+.divsect2down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
 }
