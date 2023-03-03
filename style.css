@@ -240,21 +240,23 @@ p {
   width: 450px;
   height: 300px;
   border-radius: 15px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0);
   position: absolute;
-  opacity: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   gap: 50px;
 }
 .hide1:hover {
-  opacity: 0.5;
+  background-color: rgb(0, 0, 0, 0.5);
   cursor: pointer;
 }
-
-.p3:hover {
-  opacity: 0.5;
+.hide1:hover .p3 {
+  opacity: 1;
 }
+
 .p3 {
   font-family: "Space Grotesk";
   font-style: normal;
@@ -264,4 +266,25 @@ p {
   letter-spacing: 2.28571px;
   color: #ffffff;
   opacity: 0;
+}
+.p3:hover {
+  color: #4ee1a0;
+}
+.hidelineup1 {
+  width: 138px;
+  height: 2px;
+  background-color: #4ee1a0;
+  opacity: 0;
+}
+.hide1:hover .hidelineup1 {
+  opacity: 1;
+}
+.hidelinedown1 {
+  width: 103px;
+  height: 2px;
+  background-color: #4ee1a0;
+  opacity: 0;
+}
+.hide1:hover .hidelinedown1 {
+  opacity: 1;
 }
