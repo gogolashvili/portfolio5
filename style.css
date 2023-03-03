@@ -243,6 +243,9 @@ p {
   background-color: rgb(0, 0, 0);
   position: absolute;
   opacity: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 .hide1:hover {
   opacity: 0.5;
