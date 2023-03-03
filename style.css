@@ -7,7 +7,7 @@
 .insidecont {
   width: 80%;
   margin: 0 auto;
-  /* background-color: rgb(47, 51, 53); */
+  background-color: rgb(47, 51, 53);
 }
 header {
   height: 100px;
@@ -213,4 +213,25 @@ p {
   display: flex;
   flex-direction: column;
   gap: 70px;
+}
+.prjname {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.ena {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d9d9d9;
+}
+.proj {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
