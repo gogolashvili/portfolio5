@@ -198,6 +198,7 @@ p {
   width: 450px;
   height: 300px;
   border-radius: 15px;
+  position: relative;
 }
 .projectsdiv {
   margin-top: 80px;
@@ -234,4 +235,30 @@ p {
   display: flex;
   flex-direction: column;
   gap: 7px;
+}
+.hide1 {
+  width: 450px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  opacity: 0;
+}
+.hide1:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.p3:hover {
+  opacity: 0.5;
+}
+.p3 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.28571px;
+  color: #ffffff;
+  opacity: 0;
 }
