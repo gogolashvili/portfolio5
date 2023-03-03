@@ -155,6 +155,10 @@ h6 {
   letter-spacing: -1.5px;
   color: #ffffff;
 }
+h6:hover {
+  cursor: pointer;
+  color: #4ee1a0;
+}
 p {
   font-family: "Space Grotesk";
   font-style: normal;
