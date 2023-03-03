@@ -103,6 +103,7 @@ h5 {
 }
 h5:hover {
   cursor: pointer;
+  color: #4ee1a0;
 }
 .divsect1 {
   width: 65%;
@@ -189,6 +190,10 @@ p {
   letter-spacing: 2.28571px;
   color: #ffffff;
 }
+.p2:hover {
+  color: #4ee1a0;
+  cursor: pointer;
+}
 .line4 {
   width: 120px;
   height: 2px;
@@ -236,7 +241,7 @@ p {
   flex-direction: column;
   gap: 7px;
 }
-.hide1 {
+.hide {
   width: 450px;
   height: 300px;
   border-radius: 15px;
@@ -249,11 +254,11 @@ p {
   align-content: center;
   gap: 50px;
 }
-.hide1:hover {
+.hide:hover {
   background-color: rgb(0, 0, 0, 0.5);
   cursor: pointer;
 }
-.hide1:hover .p3 {
+.hide:hover .p3 {
   opacity: 1;
 }
 
@@ -270,21 +275,21 @@ p {
 .p3:hover {
   color: #4ee1a0;
 }
-.hidelineup1 {
+.hidelineup {
   width: 138px;
   height: 2px;
   background-color: #4ee1a0;
   opacity: 0;
 }
-.hide1:hover .hidelineup1 {
+.hide:hover .hidelineup {
   opacity: 1;
 }
-.hidelinedown1 {
+.hidelinedown {
   width: 103px;
   height: 2px;
   background-color: #4ee1a0;
   opacity: 0;
 }
-.hide1:hover .hidelinedown1 {
+.hide:hover .hidelinedown {
   opacity: 1;
 }
