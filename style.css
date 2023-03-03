@@ -20,7 +20,7 @@ header {
 }
 .divhead {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   height: 25px;
 }
 h1 {
@@ -124,6 +124,7 @@ h5:hover {
 }
 .sect1 {
   display: flex;
+  margin-top: 50px;
 }
 .line2 {
   width: 350px;
@@ -296,4 +297,23 @@ p {
 }
 .hide:hover .hidelinedown {
   opacity: 1;
+}
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 900px;
+  align-items: center;
+  align-content: center;
+  background-color: #242424;
+  margin-top: 150px;
+}
+svg path:hover {
+  fill: #4ee1a0;
+  cursor: pointer;
+}
+.divfooter {
+  display: flex;
+  gap: 20px;
+  height: 25px;
 }
