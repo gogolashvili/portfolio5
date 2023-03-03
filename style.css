@@ -101,6 +101,7 @@ h5 {
   margin-top: 70px;
   letter-spacing: 2.28571px;
   color: #ffffff;
+  transition: all 0.5s;
 }
 h5:hover {
   cursor: pointer;
@@ -157,6 +158,7 @@ h6 {
   line-height: 56px;
   letter-spacing: -1.5px;
   color: #ffffff;
+  transition: all 0.5s;
 }
 h6:hover {
   cursor: pointer;
@@ -199,6 +201,7 @@ p {
   line-height: 26px;
   letter-spacing: 2.28571px;
   color: #ffffff;
+  transition: all 0.5s;
 }
 .p2:hover {
   color: #4ee1a0;
