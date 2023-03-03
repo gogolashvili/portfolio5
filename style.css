@@ -13,7 +13,7 @@ header {
   height: 100px;
   display: flex;
   justify-content: center;
-  gap: 900px;
+  gap: 800px;
   align-items: center;
   align-content: center;
   background-color: #242424;
@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-  width: 80%;
+  width: 100%;
   height: 88px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -89,7 +89,7 @@ h4 {
   font-size: 15px;
   line-height: 28px;
   color: #d9d9d9;
-  width: 60%;
+  width: 250px;
   height: 85px;
   margin-top: 10px;
 }
@@ -121,6 +121,10 @@ h5:hover {
   height: 500px;
   margin-top: 30px;
   border-radius: 20px;
+  transition: all 0.8s;
+}
+.myfoto:hover {
+  cursor: pointer;
 }
 .sect1 {
   display: flex;
@@ -306,7 +310,7 @@ footer {
   height: 100px;
   display: flex;
   justify-content: center;
-  gap: 900px;
+  gap: 50px;
   align-items: center;
   align-content: center;
   background-color: #242424;
@@ -320,4 +324,8 @@ svg path:hover {
   display: flex;
   gap: 20px;
   height: 25px;
+}
+.fototoggle {
+  width: 550px;
+  height: 650px;
 }
