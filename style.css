@@ -1,5 +1,5 @@
 .maincont {
-  background-color: #151515;
+  background-color: #1f1e1e;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -15,7 +15,7 @@ header {
   gap: 800px;
   align-items: center;
   align-content: center;
-  background-color: #242424;
+  background-color: #2f2d2d;
 }
 .divhead {
   display: flex;
@@ -271,7 +271,7 @@ p {
   transition: all 1s;
 }
 .hide:hover {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.7);
   cursor: pointer;
 }
 .hide:hover .p3 {
@@ -316,7 +316,7 @@ footer {
   gap: 50px;
   align-items: center;
   align-content: center;
-  background-color: #242424;
+  background-color: #2f2d2d;
   margin-top: 150px;
 }
 svg path:hover {
