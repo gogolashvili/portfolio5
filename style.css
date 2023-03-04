@@ -431,7 +431,7 @@ svg path:hover {
   .projecthead {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
     align-content: center;
     margin-top: 80px;
@@ -443,15 +443,19 @@ svg path:hover {
     letter-spacing: -1.13636px;
   }
   .proj {
-    width: 340px;
+    width: 350px;
     height: 220px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
   .hide {
-    width: 340px;
+    width: 350px;
     height: 220px;
   }
   .projimg {
-    width: 340px;
+    width: 350px;
     height: 220px;
   }
   .projectsdiv {
@@ -464,12 +468,18 @@ svg path:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    gap: 110px;
+    gap: 120px;
   }
   .projectsdivleft {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    gap: 120px;
+  }
+  footer {
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    gap: 20px;
   }
 }
