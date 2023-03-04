@@ -131,7 +131,7 @@ h5:hover {
   margin-top: 50px;
 }
 .line2 {
-  width: 350px;
+  width: 340px;
   height: 6px;
   background-color: #4ee1a0;
   margin-top: 5px;
@@ -331,4 +331,7 @@ svg path:hover {
 .fototoggle {
   width: 550px;
   height: 650px;
+}
+
+@media (max-width: 769px) {
 }
